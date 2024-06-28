@@ -1,14 +1,13 @@
-import Logo from "./Logo"
-import MainNav from "./MainNav"
+import Logo from "./Logo";
+import MainNav from "./MainNav";
 
 const Sidebar = () => {
-
   return (
-    <div className="flex flex-col items-center h-screen w-[15rem] border-2 fixed bg-white gap-10 px-3 ">
-        <Logo/>
-        <MainNav/> 
-      </div>
-  )
-}
+    <div className="fixed flex h-screen w-[15rem] flex-col items-center gap-10 border-2 bg-white px-3">
+      <Logo />
+      <MainNav />
+    </div>
+  );
+};
 
-export default Sidebar
+export default Sidebar;

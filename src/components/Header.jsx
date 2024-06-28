@@ -1,11 +1,9 @@
-
-
 const Header = () => {
   return (
-    <div className="w-[100%] h-[4rem] px-6 py-4 fixed bg-white ml-[15rem]  ">
-        Header  
+    <div className="fixed ml-[15rem] h-[4rem] w-[100%] bg-white px-6 py-4 shadow">
+      Header
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

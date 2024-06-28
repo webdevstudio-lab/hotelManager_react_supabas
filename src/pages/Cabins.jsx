@@ -1,11 +1,18 @@
-
+import Table from "../components/Table";
 
 const Cabins = () => {
   return (
-    <div>
-      <h1 className="font-bold text-[2rem] text-cyan-950 ">Cabins</h1>
-    </div>
-  )
-}
+    <div className="flex flex-col">
+      <div className="flex flex-row items-center justify-between">
+        <h1 className="text-[2.5rem] font-bold text-cyan-950">All Cabins</h1>
+        <p className="text-sm">Filter/Sort</p>
+      </div>
 
-export default Cabins
+      <div>
+        <Table />
+      </div>
+    </div>
+  );
+};
+
+export default Cabins;
